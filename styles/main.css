@@ -11,13 +11,21 @@ body {
 }
 
 .section1 .right-section {
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.section1 .sub-right-part {
+  display: flex;
+  flex-direction: column;
+  margin-top: 224px;
 }
 
 .section1 .small-rec {
-  margin-left: 200px;
+  margin-left: 194px;
+  width: 30px;
+  height: 2px;
 }
 
 .section1 .p1 {
@@ -298,6 +306,11 @@ header {
 
 .right-section .projects {
   margin-right: 25px;
+  text-decoration: none;
+  color: #111;
+}
+
+.right-section .contact {
   text-decoration: none;
   color: #111;
 }
