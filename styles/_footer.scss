@@ -7,13 +7,11 @@ footer{
     justify-content: space-between;
     margin-left: 125px;
     margin-right: 125px;
-    padding: 2px;
-   
 }
-.left{
-    margin-right: 667px;
-}
-.right{
+footer .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: #111;
     font-family: 'Mulish', sans-serif;
     font-size: 18px;
@@ -22,9 +20,14 @@ footer{
     line-height: normal;
     letter-spacing: -0.346px;
 }
- .projects{
-    margin-right: 30px;
+.projects{
+    margin-right: 20px ;
 }
-.svg-img{
-    margin-left: 80px;
+.contact{
+    margin-right: 20px;
+}
+.right svg{
+    width: 95px;
+    height: 15px;
+
 }

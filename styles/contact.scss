@@ -50,7 +50,9 @@ body{
     opacity: 0.3;
     background: #D8D8D8;
     margin-bottom: 46px;
-
+}
+.right-part .input-field:hover{
+    background-color: #D8D8D8;
 }
 .right-part .label{
     color: #111;
@@ -71,6 +73,9 @@ body{
     font-weight: 700;
     line-height: normal;
     border: none;
+}
+.right-part button:hover{
+    background: #6a6ff0;
 }
 .section2{
     width: 1110px;

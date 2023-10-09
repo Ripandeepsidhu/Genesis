@@ -13,14 +13,18 @@ footer {
           justify-content: space-between;
   margin-left: 125px;
   margin-right: 125px;
-  padding: 2px;
-}
-
-.left {
-  margin-right: 667px;
 }
 
 .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #111;
   font-family: "Mulish", sans-serif;
   font-size: 18px;
@@ -30,10 +34,7 @@ footer {
   letter-spacing: -0.346px;
 }
 
-.projects {
-  margin-right: 30px;
-}
-
-.svg-img {
-  margin-left: 80px;
+.right svg {
+  width: 95px;
+  height: 15px;
 }
