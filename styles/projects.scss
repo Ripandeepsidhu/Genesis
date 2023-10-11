@@ -10,22 +10,23 @@ body{
 .section1{
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-around;
    
 }
 .section1 .p1{
-    width: 475px;
+    max-width: 475px;
+    width: 100%;
     color: #111;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 55px; /* 137.5% */
 }
-    
-.left-section .p1, .p2, .p3{
-    margin-right: 0px;
-    margin-left: 125px;
-    
+.left-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 40px;
 }
 .left-section .p2, .p3{
     max-width: 635px;
@@ -39,11 +40,8 @@ body{
 }
 
 .section1 .right-section{
-    margin-right: 125px;
-    margin-left: 30px;
     display: flex;
     flex-direction: column;
-    margin-left: 120px;
     max-width: 335px;
     width: 100%;
 }
@@ -82,11 +80,12 @@ body{
 .section2 .main-img{
     width: 1110px;
     height: 660px;
-    margin-left: 125px;
-    margin-right: 125px;
     margin-top: 61px;
     margin-bottom: 45px;
-
+}
+.section2 .img-container{
+    display: flex;
+    justify-content: space-around;
 }
 .section2 p{
     width: 1109px;
@@ -97,16 +96,21 @@ body{
     font-weight: 400;
     line-height: 26px; /* 162.5% */
     opacity: 0.8;
-    margin-left: 125px;
     margin-bottom: 45px;
 }
+.section2 .paragraph{
+    display: flex;
+    justify-content: space-around;
+}
 .section2 .gallary{
-    margin-left: 125px;
-    margin-right: 125px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr;
     grid-gap: 30px;
-    margin-bottom: 132px;
+    margin-bottom: 100px;
+}
+.gallary-container{
+    display: flex;
+    justify-content: space-around;
 }
 @import 'header'
